@@ -34,7 +34,7 @@ jobs:
         run: |
           cd  ~/F1
           npm install
-          node z_shake.js.js
+          node z_shake.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
