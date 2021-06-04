@@ -6,7 +6,7 @@ name: 緘鏮麝麮鏉䏻綡
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5/20 * * * *'
+    - cron: '1 * * * *'
   watch:
     types: started
   repository_dispatch:
